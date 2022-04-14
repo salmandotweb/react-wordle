@@ -12,6 +12,7 @@ function App() {
     attempt: 0,
     letterPosition: 0,
   });
+  const [correctWord, setCorrectWord] = useState("");
 
   const onLetterSelect = (letter) => {
     if (currAttempt.letterPosition > 4) return;
@@ -49,6 +50,7 @@ function App() {
           onLetterSelect,
           onLetterDelete,
           onEnter,
+          correctWord,
         }}
       >
         <Board />
