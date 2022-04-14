@@ -1,0 +1,17 @@
+.key {
+  margin: 0.5rem;
+  background: rgb(124, 124, 124);
+  height: 5rem;
+  width: 4rem;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.key:active {
+  transform: scale(0.98);
+}
+.capsKey {
+  width: 8rem;
+}
